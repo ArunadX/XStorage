@@ -21,82 +21,92 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
+
+    </head>
     <style>
         @keyframes pulse {
-            0% {
-                background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
-  }
-            50% {
-                background: radial-gradient(circle at center, #ff007f 0%, #1a0015 80%);
-  }
-            100% {
-                background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
-                 }
-}
-        .hero-section{
-            animation: pulse 10s infinite;
-            background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
-            background-size: cover;
-            background-attachment: fixed;
-            color: white;
-            position: relative;
-            z-index: 1;
-            padding-bottom: 100px;
-        }
-        .hero-section .container{
-            position: relative;
-            z-index: 2;
-        }
-        .section{
-            animation: pulse 10s infinite;
-            background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
-            color: white;
-        }
-        .featured-section{
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
-            background-size: 400% 400%;
-            animation: pulse 10s ease infinite;
-            color: #ffffff;
-            font-family: var(--body-font-family); 
-        }
-        .d-flex{
-            background-color: rgba(25, 0, 20, 0.8);
-            border: 1px solid #ff004f;
-            color: #ffffff;
-
-
-        }
-        .floating-box {
-            background-color: rgba(255, 255, 255, 0.08); 
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            color: #ffffff;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 0 20px rgba(255, 0, 79, 0.4); 
-            font-family: 'Segoe UI', sans-serif;
-            max-width: 400px;
-            margin: 20px auto;
-            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7); 
-}    
-        .tab-content{
-            background-color: rgba(255, 255, 255, 0.08);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            color: #ffffff;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 0 20px rgba(255, 0, 79, 0.4);
-            font-family: 'Segoe UI', sans-serif;
-            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
-
-        }
+      0% {
+        background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
+      }
+  
+      50% {
+        background: radial-gradient(circle at center, #ff007f 0%, #1a0015 80%);
+      }
+  
+      100% {
+        background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
+      }
+    }
+  
+    .hero-section {
+      animation: pulse 10s infinite;
+      background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+      position: relative;
+      z-index: 1;
+      padding-bottom:  0px;
+    }
+  
+    .hero-section .container {
+      
+      z-index: 2;
+    }
+  
+    .section {
+      animation: pulse 10s infinite;
+      background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
+      color: white;
+    }
+  
+    .featured-section {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at center, #ff004f 0%, #190013 80%);
+      background-size: 400% 400%;
+      animation: pulse 10s ease infinite;
+      color: #ffffff;
+      font-family: var(--body-font-family);
+    }
+  
+    .d-flex {
+      background-color: rgba(25, 0, 20, 0.8);
+      border: 1px solid #ff004f;
+      color: #ffffff;
+  
+  
+    }
+  
+    .floating-box {
+      background-color: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 79, 0.4);
+      font-family: 'Segoe UI', sans-serif;
+      max-width: 400px;
+      margin: 20px auto;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+    }
+  
+    .tab-content {
+      background-color: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+      padding: 0px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 0, 79, 0.4);
+      font-family: 'Segoe UI', sans-serif;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  
+    }
 
     </style>
-    </head>
     
     <body id="top">
 
@@ -106,7 +116,7 @@
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
                         <i class="bi-back"></i>
-                        <span>XStorage</span>
+                        <span class="glow-text ">XStorage</span>
                     </a>
 
                     <div class="d-lg-none ms-auto me-4">
@@ -128,26 +138,18 @@
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                                <a class="nav-link click-scroll" href="#section_3">Contribute</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
+                                <a class="nav-link" href="topics-detail.html" id="ourteam">Our Team</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                                <a class="nav-link click-scroll" href="#section_5">Support</a>
                             </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-
-                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="topics-listing.html">Topics Listing</a></li>
-
-                                    <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
-                                </ul>
-                            </li>
+                          
                         </ul>
 
                         <div class="d-none d-lg-block">
@@ -219,6 +221,7 @@
 
                                     <div class="custom-block-overlay-text d-flex">
                                         <div>
+                                            
                                             <h5 class="glow-text">How to begin?</h5>
 
                                             <p class="text-white">Just click the button below and sign in to begin storing!. Or scroll down and access the main menu for the complete website. Or if you are feeling ultra lazy, just use the menu from the top!
@@ -226,6 +229,7 @@
                                             </p>
                                              <img src="login.png" alt="Login Icon" width="256" height="200" style="filter: drop-shadow(0 0 5px #ff007f);">
                                             <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Get Started</a>
+                                        
                                         </div>
 
                                         <span class="badge bg-finance rounded-pill ms-auto"></span>
@@ -242,6 +246,8 @@
                 </div>
             </section>
 
+            <br>
+            <br>
 
             <section class="explore-section section-padding" id="section_2">
                 <div class="container">
@@ -258,39 +264,37 @@
                     <div class="row">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Design</button>
+                                <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Join Us</button>
                             </li>
 
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Marketing</button>
+                                <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Services</button>
                             </li>
 
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Finance</button>
+                                <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Connect</button>
                             </li>
 
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Music</button>
-                            </li>
-
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane" aria-selected="false">Education</button>
-                            </li>
+                       
+                            
                         </ul>
                     </div>
                 </div>
 
                 <div class="container">
                     
+                    
+                    
 
                         <div class="col-12">
+                            <div class="tab-content" id="myTabContent">
                            
                                 <div class="tab-pane fade show active " id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
                                     <div class="row">
-                                        <div class="floating-box">
-                                            <div class="    ">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="floating-box ">
                                                 <a href="topics-detail.html">
-                                                    <div class=>
+                                                    <div class="">
                                                         <div>
                                                             <h5 class="glow-text">Log In</h5>
 
@@ -304,6 +308,8 @@
                                                 </a>
                                             </div>
                                         </div>
+                                    
+                                    
 
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="floating-box">
@@ -318,8 +324,7 @@
                                                         <span class="badge bg-design rounded-pill ms-auto"></span>
                                                     </div>
 
-                                                    <img src="loginfirst.png" position: center; alt="log in" width="124" height="124"
-                                                        style="filter: drop-shadow(0 0 5px #ff007f);">>
+                                                    <img src="login.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -331,7 +336,7 @@
                                                         <div>
                                                             <h5 class="glow-text">Help and Support </h5>
 
-                                                                <p class="mb-0">Feeling confused or can't find what you are looking for? Click here to get instructions</p>
+                                                                <p class="mb-0">Feeling confused or can't find what you came for? Click here!!</p>
                                                         </div>
 
                                                         <span class="badge bg-design rounded-pill ms-auto">100</span>
@@ -347,52 +352,53 @@
                                 <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                                <div class="custom-block bg-white shadow-lg">
+                                        <div class="floating-box">
+                                                <div>
                                                     <a href="topics-detail.html">
-                                                        <div class="d-flex">
+                                                        <div>
                                                             <div>
-                                                                <h5 class="mb-2">Advertising</h5>
+                                                                <h5 class="glow-text">Store Your Code</h5>
 
-                                                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                                <p class="mb-0">If you already have an account and wish to store your code, Well click here!</p>
                                                             </div>
 
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">30</span>
+                                                            <span class="badge bg-advertising rounded-pill ms-auto"></span>
                                                         </div>
 
                                                         <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
                                                     </a>
                                                 </div>
                                             </div>
-
+                                        </div>
                                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                                <div class="custom-block bg-white shadow-lg">
+                                                <div class="floating-box">
                                                     <a href="topics-detail.html">
-                                                        <div class="d-flex">
+                                                        <div class=>
                                                             <div>
-                                                                <h5 class="mb-2">Video Content</h5>
+                                                                <h5 class="glow-text">View news and updates</h5>
 
-                                                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                                <p class="mb-0">See the current news and updates which we provide on schools and education!</p>
                                                             </div>
 
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">65</span>
+                                                            <span class="badge bg-advertising rounded-pill ms-auto"></span>
                                                         </div>
 
-                                                        <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
+                                                        <img src="news_icon.png" alt="news Icon" width="256" height="200" style="filter: drop-shadow(0 0 5px #ff007f);">
                                                     </a>
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-4 col-md-6 col-12">
-                                                <div class="custom-block bg-white shadow-lg">
+                                                <div class="floating-box">
                                                     <a href="topics-detail.html">
-                                                        <div class="d-flex">
+                                                        <div class="">
                                                             <div>
-                                                                <h5 class="mb-2">Viral Tweet</h5>
+                                                                <h5 class="glow-text">See Public Files</h5>
 
-                                                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                                <p class="mb-0">View or see files stored by the community. These files are NOT filtered and MAY contain misleading information</p>
                                                             </div>
 
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                                            <span class="badge bg-advertising rounded-pill ms-auto"></span>
                                                         </div>
 
                                                         <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
@@ -404,153 +410,60 @@
 
                                 <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab" tabindex="0">   <div class="row">
                                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
-                                            <div class="custom-block bg-white shadow-lg">
+                                            <div class="floating-box">
                                                 <a href="topics-detail.html">
-                                                    <div class="d-flex">
+                                                    <div class="">
                                                         <div>
-                                                            <h5 class="mb-2">Investment</h5>
+                                                            <h5 class="mb-2">Join our discord</h5>
 
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                            <p class="mb-0">Talk, chat and have fun with other people on our discord!</p>
                                                         </div>
 
-                                                        <span class="badge bg-finance rounded-pill ms-auto">30</span>
+                                                        <span class="badge bg-finance rounded-pill ms-auto"></span>
                                                     </div>
 
-                                                    <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
+                                                        <img src="discord_icon.png" alt="news Icon" width="256" height="200" style="filter: drop-shadow(0 0 5px #ff007f);">
                                                 </a>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="custom-block custom-block-overlay">
-                                                <div class="d-flex flex-column h-100">
+                                            <div class="floating-box">
+                                                <div>
                                                     <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" class="custom-block-image img-fluid" alt="">
 
                                                     <div class="custom-block-overlay-text d-flex">
                                                         <div>
-                                                            <h5 class="text-white mb-2">Finance</h5>
+                                                            <h5 class="text-white mb-2"></h5>
 
-                                                            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
+                                                            <p class="text-white">Note: Our discord may not work at this point so don't be suprised if the discord link leads to Error 404!</p>
 
                                                             <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
                                                         </div>
 
-                                                        <span class="badge bg-finance rounded-pill ms-auto">25</span>
+                                                        <span class="badge bg-finance rounded-pill ms-auto"></span>
                                                     </div>
 
-                                                    <div class="social-share d-flex">
-                                                        <p class="text-white me-4">Share:</p>
-
-                                                        <ul class="social-icon">
-                                                            <li class="social-icon-item">
-                                                                <a href="#" class="social-icon-link bi-twitter"></a>
-                                                            </li>
-
-                                                            <li class="social-icon-item">
-                                                                <a href="#" class="social-icon-link bi-facebook"></a>
-                                                            </li>
-
-                                                            <li class="social-icon-item">
-                                                                <a href="#" class="social-icon-link bi-pinterest"></a>
-                                                            </li>
-                                                        </ul>
-
-                                                        <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
-                                                    </div>
-
+                                                   
                                                     <div class="section-overlay"></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                
 
                                 <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <a href="topics-detail.html">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Composing Song</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-music rounded-pill ms-auto">45</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Compose_music_re_wpiw.png" class="custom-block-image img-fluid" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <a href="topics-detail.html">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Online Music</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-music rounded-pill ms-auto">45</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_happy_music_g6wc.png" class="custom-block-image img-fluid" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 col-12">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <a href="topics-detail.html">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Podcast</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-music rounded-pill ms-auto">20</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-3">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <a href="topics-detail.html">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Graduation</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-education rounded-pill ms-auto">80</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Graduation_re_gthn.png" class="custom-block-image img-fluid" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
+                                       
 
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <div class="custom-block bg-white shadow-lg">
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
                                                         <div>
-                                                            <h5 class="mb-2">Educator</h5>
+                                                            <h5 class="mb-2">Join our team</h5>
 
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                            <p class="mb-0">We sure do need a lot of manforce for managing SUCH a large website!</p>
                                                         </div>
 
                                                         <span class="badge bg-education rounded-pill ms-auto">75</span>
@@ -562,21 +475,23 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
+                            
+                          </div>
                     </div>
                 </div>
             </section>
 
+            <br>
+            <br>
+            <br>
 
-            <section class="timeline-section section-padding" id="section_3">
-                <div class="section-overlay"></div>
+                
 
                 <div class="container">
                     <div class="row">
 
                         <div class="col-12 text-center">
-                            <h2 class="text-white mb-4">How does it work?</h1>
+                            <h2 class="text-white mb-4">How do store your code?</h1>
                         </div>
 
                         <div class="col-lg-10 col-12 mx-auto">
@@ -587,9 +502,9 @@
                                     </div>
 
                                     <li>
-                                        <h4 class="text-white mb-3">Search your favourite topic</h4>
+                                        <h4 class="text-white mb-3">Log In or Sign Up</h4>
 
-                                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?</p>
+                                        <p class="text-white">For secuity purposs, you need to log in to use our free services. This is done so to avoid any malicious editing to your code by other users </p>
 
                                         <div class="icon-holder">
                                           <i class="bi-search"></i>
@@ -597,9 +512,9 @@
                                     </li>
                                     
                                     <li>
-                                        <h4 class="text-white mb-3">Bookmark &amp; Keep it for yourself</h4>
+                                        <h4 class="text-white mb-3">Write your code or text</h4>
 
-                                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum similique odit labore. Doloremque, repudiandae?</p>
+                                        <p class="text-white">Go to our main editor and write what you want to save</p>
 
                                         <div class="icon-holder">
                                           <i class="bi-bookmark"></i>
@@ -607,10 +522,9 @@
                                     </li>
 
                                     <li>
-                                        <h4 class="text-white mb-3">Read &amp; Enjoy</h4>
+                                        <h4 class="text-white mb-3">Click Submit and Enjoy!</h4>
 
-                                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vero quisquam, rem assumenda similique voluptas distinctio, iste est hic eveniet debitis ut ducimus beatae id? Quam culpa deleniti officiis autem?</p>
-
+                                        <p class="text-white">Once all of that is done, fill in some last details and click submit and BAM!. Your code is available online</p>
                                         <div class="icon-holder">
                                           <i class="bi-book"></i>
                                         </div>
@@ -621,8 +535,7 @@
 
                         <div class="col-12 text-center mt-5">
                             <p class="text-white">
-                                Want to learn more?
-                                <a href="#" class="btn custom-btn custom-border-btn ms-3">Check out Youtube</a>
+                      
                             </p>
                         </div>
                     </div>
@@ -634,62 +547,10 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-lg-6 col-12">
-                            <h2 class="mb-4">Frequently Asked Questions</h2>
-                        </div>
+                        
 
-                        <div class="clearfix"></div>
-
-                        <div class="col-lg-5 col-12">
-                            <img src="images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
-                        </div>
-
-                        <div class="col-lg-6 col-12 m-auto">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        What is Topic Listing?
-                                        </button>
-                                    </h2>
-
-                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Topic Listing is free Bootstrap 5 CSS template. <strong>You are not allowed to redistribute this template</strong> on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        How to find a topic?
-                                    </button>
-                                    </h2>
-
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            You can search on Google with <strong>keywords</strong> such as templatemo portfolio, templatemo one-page layouts, photography, digital marketing, etc.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Does it need to paid?
-                                    </button>
-                                    </h2>
-
-                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                        
+                               
                     </div>
                 </div>
             </section>
@@ -700,7 +561,7 @@
                     <div class="row">
 
                         <div class="col-lg-12 col-12 text-center">
-                            <h2 class="mb-5">Get in touch</h2>
+                            <h2 class="mb-5">Contact Us</h2>
                         </div>
 
                         <div class="col-lg-5 col-12 mb-4 mb-lg-0">
@@ -708,9 +569,9 @@
                         </div>
 
                         <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
-                            <h4 class="mb-3">Head office</h4>
+                            <h4 class="mb-3">Main Place</h4>
 
-                            <p>Bay St &amp;, Larkin St, San Francisco, CA 94109, United States</p>
+                            <p>Sorry! We don't have a offline place yet!</p>
 
                             <hr>
 
@@ -718,7 +579,7 @@
                                 <span class="me-2">Phone</span>
 
                                 <a href="tel: 305-240-9671" class="site-footer-link">
-                                    305-240-9671
+                                    We are not accepting phone calls YET
                                 </a>
                             </p>
 
@@ -726,15 +587,15 @@
                                 <span class="me-2">Email</span>
 
                                 <a href="mailto:info@company.com" class="site-footer-link">
-                                    info@company.com
+                                    XFoundation_XStorage@gmail.com
                                 </a>
                             </p>
                         </div>
 
                         <div class="col-lg-3 col-md-6 col-12 mx-auto">
-                            <h4 class="mb-3">Dubai office</h4>
+                            <h4 class="mb-3">X Foundation Limited</h4>
 
-                            <p>Burj Park, Downtown Dubai, United Arab Emirates</p>
+                            <p>A leading company in education since 2020</p>
 
                             <hr>
 
@@ -742,7 +603,7 @@
                                 <span class="me-2">Phone</span>
 
                                 <a href="tel: 110-220-3400" class="site-footer-link">
-                                    110-220-3400
+                                    We do not accept phone calls YET
                                 </a>
                             </p>
 
@@ -750,7 +611,7 @@
                                 <span class="me-2">Email</span>
 
                                 <a href="mailto:info@company.com" class="site-footer-link">
-                                    info@company.com
+                                    XFoundation_Official@gmail.com
                                 </a>
                             </p>
                         </div>
@@ -767,28 +628,22 @@
                     <div class="col-lg-3 col-12 mb-4 pb-2">
                         <a class="navbar-brand mb-2" href="index.html">
                             <i class="bi-back"></i>
-                            <span>Topic</span>
+                            <span>X Foundation <sup>TM </sup></span>
                         </a>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-6">
-                        <h6 class="site-footer-title mb-3">Resources</h6>
+                        <h6 class="site-footer-title mb-3">Quick Links</h6>
 
                         <ul class="site-footer-links">
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Home</a>
+                                <a href="#" class="site-footer-link">Back To Top</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">How it works</a>
+                                <a href="#" class="site-footer-link"></a>
                             </li>
 
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">FAQs</a>
-                            </li>
-
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -798,33 +653,21 @@
 
                         <p class="text-white d-flex mb-1">
                             <a href="tel: 305-240-9671" class="site-footer-link">
-                                305-240-9671
+                                We only accept emails till now. Sorry !
                             </a>
                         </p>
 
                         <p class="text-white d-flex">
                             <a href="mailto:info@company.com" class="site-footer-link">
-                                info@company.com
+                                XFoundation_Official@gmail.com OR <br>
+                                XFoundation_XStorage@gmail.com
                             </a>
                         </p>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            English</button>
-
-                            <ul class="dropdown-menu">
-                                <li><button class="dropdown-item" type="button">Thai</button></li>
-
-                                <li><button class="dropdown-item" type="button">Myanmar</button></li>
-
-                                <li><button class="dropdown-item" type="button">Arabic</button></li>
-                            </ul>
-                        </div>
-
-                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 Topic Listing Center. All rights reserved.
-                        <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+                    
+                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2025 X Foundation<sup>TM</sup> All rights reserved.
+                        <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">See contributers</a></p>
                         
                     </div>
 
@@ -832,13 +675,14 @@
             </div>
         </footer>
 
-
+        
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
+        <script src="loading.js"></script>
 
     </body>
 </html>
