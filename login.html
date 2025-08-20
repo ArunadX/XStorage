@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+    const netlifyIdentity = window.netlifyIdentity;
+    document.getElementById("submit").addEventListener("click", function(e) {e.preventDefault();
+        const email = document.getElementById("email").value;
+        const password = document.getElementById("password").value;
+        if (!email || !password){
+            alert("Please enter email or password for creation of account")
+            return;
+        }
+        netlifyIdentity.login(email, password).then(user => {
+            alert("You have succefully logged in, you will be redirected shortly");
+            console.log("Login for user succesful", user);
+            window.location.href = "index.html"
+        })
+        .catch(err => {
+            alert("Login failed, please recheck your credentials for any typo")
+            console.log("Login for user FAILED", user);
+            console.error(err);
+        });
+    });
+</script>
 <link href="css/templatemo-topic-listing.css" rel="stylesheet">
 <style>
     @keyframes pulse{
